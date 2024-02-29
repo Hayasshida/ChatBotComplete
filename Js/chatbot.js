@@ -1,6 +1,13 @@
 const chat = window.document.getElementById('chat')
 const mensagem = window.document.getElementById('text')
 let pergunta = ''
+
+document.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        enviarMensagem()
+    }
+});
+
 function enviarMensagem(){
     if(text.value == null || text.value == undefined || text.value == ""){
         return
