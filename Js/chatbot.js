@@ -97,7 +97,6 @@ function showAnswer(index) {
     limparMatches()
     const mostrarResposta = document.createElement('p')
     mostrarResposta.setAttribute('class', 'resposta')
-    console.log(index)
     if(index === 0){
         mostrarResposta.textContent = ">Só sei falar de futebol meu amigo, se não for isso, tchau"
         return chat.appendChild(mostrarResposta)
