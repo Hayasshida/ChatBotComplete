@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #313338;
+    height: 100%;
+    width: 100%;
+}
+
+nav h1{
+    text-align: center;
+    line-height: 5.686125852918878vh;
+    color: white;
+}
+
+html{
+    height: 100%;
+}
+
+#container{
+    width: 70%;
+    height: 70%;
+    margin: 1.8953752843062925vh auto;
+}
+
+nav{
+    height: 5.686125852918878vh;
+    background: #1e1f22;
+}
+
+#chat{
+    background: #2b2d31;
+    color: #fff;
+    height: calc(100% - 2.274450341167551vh);
+    padding: 45px;
+    line-height: 40px;
+    overflow-y: scroll;
+}
+
+#mensagem{
+    height: 45px;
+    margin-top: 2.274450341167551vh;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+#text{
+    width: calc(100% - 45px);
+    height: 45px;
+    border: none;
+    outline: none;
+    text-indent: 25px;
+    font-size: 1.2em;
+}
+
+#enviar{
+    background: url('../Img/send-button.png') no-repeat center center #f5f5f5;
+    width: 45px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+#enviar:active{
+    transform: scale(0.8);
+    filter: brightness(0.8);
+    outline: none;
+    border: none;
+}
